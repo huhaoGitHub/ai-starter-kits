@@ -1,0 +1,15 @@
+interface:
+  display_name: "飞书项目 MCP 工单方法论"
+  short_description: "飞书项目 MCP 工单管理方法论与业务上下文模板"
+  default_prompt: "Use $feishu-project-mcp-playbook to manage Feishu Project work items with a reusable business context file so field mappings, defaults, roles, and cached candidates do not need to be rediscovered every time."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "feishu-project"
+      description: "飞书项目 MCP Server"
+      transport: "streamable_http"
+      url: "https://project.feishu.cn/mcp_server/v1"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "古代人模式，帮我解释一下 React useEffect 的依赖数组为什么要加空数组 []",
+    "expected": "用极简中文（古代人风格）解释 useEffect + [] 的含义，去除冗余，保留核心技术信息"
+  },
+  {
+    "id": 2,
+    "prompt": "古代人模式极致，数据库连接池配置，max_connections 设多少",
+    "expected": "极致压缩风格（full/ultra），直接给出建议数值和核心理由，不展开背景知识"
+  },
+  {
+    "id": 3,
+    "prompt": "古风小生模式，如何优化这个 SQL 查询：SELECT * FROM users WHERE age > 18 ORDER BY created_at DESC",
+    "expected": "用极简文言文风格给出优化建议，保留技术准确性，不使用典故"
+  }
+]
